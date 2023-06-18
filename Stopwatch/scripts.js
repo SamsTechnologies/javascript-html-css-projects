@@ -74,6 +74,6 @@ function stopWatch() {
         if (milliseconds < 10) {
             millisecondsCount.textContent  = "0" + millisecondsCount.textContent ;
         }
-        setTimeout(stopWatch, 8);
+        setTimeout(stopWatch, 10);
     }
 }
