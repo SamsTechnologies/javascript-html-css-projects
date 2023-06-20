@@ -1,0 +1,141 @@
+body{
+    position: relative;
+    padding: 50px;
+    background: #00001a;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: grey;
+    border-bottom: 3px solid grey;
+    font-style: italic;
+}
+    
+.container{
+    border: 1px solid grey;
+    box-shadow: 0px 0px 10px grey;
+    width: 700px;
+    background: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 97.2%;
+    background: blue;
+    height: 70px;
+    padding: 20px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.button-in{
+    width: 100%;
+    position: relative;
+    height: 100px;
+      
+
+}
+
+input{
+    background: #6666ff;
+    margin: 0px;
+    padding: 0px;
+    color: #b3b3b3;
+    font-size: 17px;
+    font-weight: 400;
+    text-indent: 10px;
+    width: 100%;
+    outline: none;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+button{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 18px;
+    z-index: 2;
+    border: none;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    background: #00ff00;
+    margin-right: 2px;
+    transform: translateX(2px);
+}
+
+/* list items */
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 20px;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+li{
+    background: #e6e6e6;
+    margin-bottom: 5px;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-style: italic;
+    
+}
+span{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.fa{
+    
+    cursor: pointer;
+    
+}
+.fa-trash{
+    padding: 6px;
+    border-radius: 50%;
+    color: #ff3333;
+    text-align: center;
+    margin-right: 5px;
+    
+    
+}
+
+.fa-check{
+    padding:4px;
+    border-radius: 50%;
+    color: #00ff00; 
+}
+.complete .fa-check{
+    background: #00ff00;
+    color: white;
+}
+
+
+
+ 
+
+
